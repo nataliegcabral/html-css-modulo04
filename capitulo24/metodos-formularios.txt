@@ -1,0 +1,20 @@
+MÉTODOS DE FORMULÁRIO HTML
+
+não existe diferença de performance perceptível entre os dois
+
+GET (padrão):
+-utilizado para dados não sensíveis, dados compartilháveis, como o de pesquisa do google
+
+-os dados do get não podem ultrapassar 3000 bytes (equivalente a 3000 letras)
+
+-os dados aparecem na url
+
+POST:
+-utilizados para dados sensíveis como senhas, cartões de crédito, imagens 
+(aprender mais sobre https para segurança de dados)
+
+-dados não aparecem na url
+
+-dados ultrapassam de 3000 bytes
+
+-envio de arquivos
