@@ -25,11 +25,11 @@
     <form action="cadastro.php" method="get">
         <p>
             <label for="iusu">Usuário: </label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="20" placeholder="nome do usuário" autocomplete="username">
         </p>
         <p>
             <label for="isen">Senha: </label>
-            <input type="password" name="sen" id="isen">
+            <input type="password" name="sen" id="isen" required maxlength="10" autocomplete="new-password">
         </p>
         <p>
             <input type="submit" value="Enviar">
