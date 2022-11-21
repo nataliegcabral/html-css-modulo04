@@ -28,6 +28,7 @@ header > h1 {
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    
 }
 
 #burguer:hover {
@@ -36,6 +37,7 @@ header > h1 {
 
 menu {
     display: none;
+    
 }
 
 menu ul {
